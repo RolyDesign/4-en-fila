@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(76, 76, 76);
+}
+main{
+    height: 100vh;
+}
+
+
+
+.flex-center-xy{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    background-color: rgb(131, 62, 176);
+    border-radius: 0.3rem;
+    padding: 1rem;
+   
+}
+
+.flex-inline{
+    display: flex;
+}
+
+.color{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(200, 199, 199);
+    margin: 0.2em;
+    border-radius: 50%;
+    border: 5px solid rgb(103, 14, 166);
+}
+.header{
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+}
+.header div{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(200, 199, 199);
+    margin: 0.2em;
+    border-radius: 50%;
+    border: 5px solid rgb(96, 11, 157); 
+}
+
+
+.header button{
+    width: 3rem;
+    height: 3rem;
+    border: 4px solid rgb(146, 20, 224);
+    border-radius: 0.5rem;
+    background-color: bisque;
+}
+
+.red{
+    background-color: brown ;
+}
+.yellow{
+    background-color: rgb(225, 174, 22) ;
+}
+
+
+
+
